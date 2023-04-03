@@ -7,8 +7,18 @@
 body {
   font-family: 'Inter', sans-serif;
 }
-header {
+.active {
+  color: #eab308;
+  border-bottom: 3px solid #eab308;
+  padding-bottom: 10px;
+}
+.active:hover {
+  color: #987408;
+}
+.home {
   height: 100vh;
+}
+header {
   width: 100%;
   background: #0f172a;
 }
@@ -208,7 +218,7 @@ h3 {
   align-items: center;
   min-height: 400px;
 }
-.box .card {
+.projects .box .card {
   height: 365px;
   width: 335px;
   padding: 20px 35px;
@@ -350,4 +360,60 @@ footer .end a {
   color: #eab308;
   transform: scale(1);
   transition: 0.5s;
+}
+.blog {
+  width: 100%;
+  padding: 100px 0;
+  background: #0f172a;
+}
+.blog .title h2 {
+  color: white;
+  font-size: 75px;
+  width: 100%;
+  margin-bottom: 50px;
+  text-align: center;
+}
+.blog .box .card {
+  height: 365px;
+  width: 335px;
+  padding: 20px 35px;
+  border-radius: 20px;
+  margin: 15px;
+  position: relative;
+  overflow: hidden;
+  text-align: end;
+  border: 1px solid black;
+  background: #1e293b;
+}
+.blog .title h2 span {
+  color: #eab308;
+}
+.blog p {
+  color: white;
+  text-align: justify;
+  margin-bottom: 30px;
+}
+.blog a {
+  color: #eab308;
+  border: 1px solid #eab308;
+  padding: 5px 10px;
+  border-radius: 20px;
+}
+.blog a:hover {
+  color: white;
+  background: #eab308;
+  border: 1px solid #eab308;
+  transition: 0.5s;
+}
+.nav-blog {
+  padding: 7px 15px;
+  background: #eab308;
+  color: white;
+  border-radius: 20px;
+  border: 1px solid #eab308;
+}
+.nav-blog:hover {
+  background: transparent;
+  color: #eab308;
+  border: 1px solid #eab308;
 }
